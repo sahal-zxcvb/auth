@@ -1,0 +1,7 @@
+<h1>authenthication</h1>
+
+<form action='sighup/' method="POST">
+{% csrf_token %}
+{{form.as_p}}
+<button type="submit">sighup</button>
+</form>
